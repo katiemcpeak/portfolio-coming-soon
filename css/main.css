@@ -1,0 +1,123 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.nav-bars {
+    height: 90px;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    float: right;
+    padding-top: 6px;
+    padding-right: 50px;
+}
+
+.nav li {
+    margin: 0;
+    display: inline-block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    color: orange;
+}
+
+.navigation {
+    background-color: white;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.header {
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.background {
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    padding-top: 38%;
+    padding-bottom: 20%;
+    bottom: 0;
+}
+
+.btn-expand {
+    height: 50px;
+    width: 57px;
+    padding-left: 25px; 
+}   
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 200ms linear;
+}
+
+.js-panel-expand {
+    max-height: 10em;
+}
+
+@media only screen and (min-width: 60em) {
+    
+    max-height: 40px;
+
+}
