@@ -85,6 +85,8 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100%;
+    padding: 0;
+   
 }
 
 .background {
