@@ -117,9 +117,23 @@ h1 {
 
 .name {
     font-family: 'Lobster', cursive;
-    font-size: 60px;
 }
-    
+
+.behancelogo { 
+    width: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.githublogo {
+    width: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
 
 .js-panel-expand {
     max-height: 10em;
