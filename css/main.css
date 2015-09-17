@@ -120,14 +120,13 @@ h1 {
     font-size: 3em;
 }
 
-.behancelogo { 
-    width: 10px;
+footer {
     text-align: center;
+    margin: auto 0;
 }
 
-.githublogo {
-    width: 10px;
-    text-align: center;
+.socialmedialogo { 
+    width: 130px;
 }
 
 .js-panel-expand {
