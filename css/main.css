@@ -17,45 +17,54 @@ html {
 }
 
 body {
+    display: block;
+    margin: 0 auto;
+}
+
+.skip-links {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
-h1 {
-    text-align: center;
-    font-family: sans-serif;
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0;
+    background-color: #ef4136;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
 }
 
-.logo {
-    width: 70px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
-.nav-bars {
-    height: 90px;
+.skip-links a:focus {
+    top: 0;
 }
 
 .nav {
-    list-style: none;
-    margin: 0;
-    float: right;
-    padding-top: 6px;
-    padding-right: 50px;
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    right: 0em;
 }
 
 .nav li {
-    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
     display: inline-block;
+    text-decoration: none;
+    padding-top: 1.1em;
+    padding-right: 1.5em;
+    margin: 0 auto;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited {
-    display: block;
-    color: black;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-decoration: none;
 }
 
 .nav a:hover,
@@ -64,60 +73,102 @@ h1 {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    color: orange;
+
+  color: black;
+} 
+
+.logo {
+    top: 20px;
+    right: 20px;
+    width: 15%;
 }
 
-.navigation {
-    background-color: white;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    font-size: 3em;
+.billboard {
+    position: relative;
+    background-image: url("../images/N%C4%81.Pali.Coast.State.Park.original.1679.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.layer-billboard {
+    /*background-color: rgba(85, 156, 181, 0.4);*/
+    position: absolute;
     top: 0;
-    z-index: 1000;
-    overflow: hidden;
-}
-
-.header {
-    background-image: url(../images/N%C4%81.Pali.Coast.State.Park.original.1679.jpg);
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
+    left: 0;
     width: 100%;
-    padding: 0;
+    height: 100%;
 }
 
-.background {
-    background-image: url(../images/background.svg);
-    background-repeat: no-repeat;
+.billboard-text {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 5em;
     position: relative;
-    overflow: hidden;
-    z-index: 1;
-    width: 100%;
-    padding-top: 37%;
-    padding-bottom: 20%;
-    bottom: 0;
-}
-
-.btn-expand {
-    height: 50px;
-    width: 57px;
-    padding-left: 25px; 
-}   
-
-.panel {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 200ms linear;
+    letter-spacing: .25em;
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid #fff;
+    margin-top: 4em;
 }
 
 .firstparagraph {
-    text-align: center;
+}
+
+.treedrawing { 
+    width: 180px;
+    padding-right: 45px;
+    padding-left: 45px; 
 }
 
 .name {
     font-family: 'Lobster', cursive;
     font-size: 3em;
+}
+
+.portfolio {
+    margin: 1em;
+}
+
+.item {
+    padding: 45px;
+    margin: 0;
+    transition: all .1s ease;
+    transition-property: transform;
+}
+
+hr {
+    height: 1px;
+    width: 20%;
+    border: 0;
+    padding: 0;
+}
+
+.item img {
+    display: block;
+}
+
+.item img:hover,
+.item img:focus,
+.item img:active {
+    cursor: pointer;
+}
+
+.item h3,
+.item p {
+    padding: 0;
+    color: blue;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
 footer {
@@ -133,8 +184,11 @@ footer {
     max-height: 10em;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 30em) {
     
-    max-height: 40px;
-
+ .treedrawing {
+     width: 50%;  
+     float: left;   
+ }
+    
 }

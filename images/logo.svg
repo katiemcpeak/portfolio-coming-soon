@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 76.9 88.4" style="enable-background:new 0 0 76.9 88.4;" xml:space="preserve">
+	 width="76.9px" height="88.4px" viewBox="-267 352.6 76.9 88.4" style="enable-background:new -267 352.6 76.9 88.4;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
 <g>
-	<polygon points="9.6,8 9.6,54.5 18.5,57.9 16.6,34.7 23.1,50.8 32.8,36.4 27.7,61.3 35.4,64.7 45.3,30.6 31.7,26.9 24.6,37.9 
-		23.6,8 	"/>
-	<polygon points="9.6,58 34.1,66.6 45.3,76 32,76 24.1,62.8 24.8,76 9.6,76 	"/>
-	<path d="M76.9,88.4H0V0h76.9V88.4z M3.1,85.3h70.6V3.1H3.1V85.3z"/>
+	<polygon class="st0" points="-257.4,360.6 -257.4,407.1 -248.5,410.5 -250.4,387.3 -243.9,403.4 -234.2,389 -239.3,413.9 
+		-231.6,417.3 -221.7,383.2 -235.3,379.5 -242.4,390.5 -243.4,360.6 	"/>
+	<polygon class="st0" points="-257.4,410.6 -232.9,419.2 -221.7,428.6 -235,428.6 -242.9,415.4 -242.2,428.6 -257.4,428.6 	"/>
+	<path class="st0" d="M-190.1,441H-267v-88.4h76.9V441z M-263.9,437.9h70.6v-82.2h-70.6V437.9z"/>
 </g>
 </svg>
