@@ -77,12 +77,6 @@ body {
   color: black;
 } 
 
-.logo {
-    top: 20px;
-    right: 20px;
-    width: 15%;
-}
-
 .billboard {
     position: relative;
     background-image: url("../images/N%C4%81.Pali.Coast.State.Park.original.1679.jpg");
@@ -95,7 +89,6 @@ body {
 }
 
 .layer-billboard {
-    /*background-color: rgba(85, 156, 181, 0.4);*/
     position: absolute;
     top: 0;
     left: 0;
@@ -103,35 +96,43 @@ body {
     height: 100%;
 }
 
-.billboard-text {
+.logo {
+    width: 15%;
+    position: absolute;
     text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 5em;
-    position: relative;
-    letter-spacing: .25em;
-    margin: 0 auto;
-    width: 60%;
-    border: 2px solid #fff;
-    margin-top: 4em;
-}
-
-.firstparagraph {
+    margin-top: 20em;
+    margin-left: 30em;
 }
 
 .treedrawing { 
     width: 180px;
     padding-right: 45px;
     padding-left: 45px; 
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .name {
-    font-family: 'Lobster', cursive;
-    font-size: 3em;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+}
+
+.about {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+  
+.about-section {
+    padding-bottom: 25px;
 }
 
 .portfolio {
-    margin: 1em;
+    margin: none;
+}
+
+.piece {
+    width: 100%;
+    margin: none;
 }
 
 .item {
@@ -177,18 +178,105 @@ footer {
 }
 
 .socialmedialogo { 
-    width: 130px;
+    width: 40%;
+    text-align: center;
+    margin-top: 2em;
 }
 
-.js-panel-expand {
-    max-height: 10em;
+button {
+    font-size: 1em;
+    border: 3px solid grey;
+    background-color: white;
+    font-family: 'Lobster Two', cursive;
+    color: grey;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 0.5em 0.75em;
+    align-content: center;
 }
 
-@media only screen and (min-width: 30em) {
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+    color: #fff;
+}
+
+.pricingicons {
+    padding-top: 2rem;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contacttitle {
+    font-family: 'Lobster Two', cursive;
+    font-size: 3rem;
+}
+
+input[type="email"] {
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 1.125em;
+    font-family: serif;
+    padding: 0.5em;
+    max-width: 15rem;
+}
+
+input[type="name"] {
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 1.125em;
+    font-family: serif;
+    padding: 0.5em;
+    max-width: 15rem;
+}
+
+input[type="tel"] {
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 1.125em;
+    font-family: serif;
+    padding: 0.5em;
+    max-width: 15rem;
+}
+
+input[type="email"]:focus {
+   outline: 3px solid brown;
+    background-color: #fff;
+}
+
+.send {
+    text-decoration: none;
+}
     
- .treedrawing {
-     width: 50%;  
-     float: left;   
- }
+
+@media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
+   
+    
+    
+}
+
+@media only screen and (min-width: 48em) /* TABLET */ {
+    
+    .piece {
+        width: 50.0000%;
+        display: inline-block;
+        float: left;
+    }
+}
+
+
+@media only screen and (min-width: 72em) /* DESKTOP */ {
+    
+    .piece {
+        width: 33.3333%;
+        display: inline-block;
+        float: left;
+    }
+    
+    .socialmedialogo { 
+        width: 30%;
+        text-align: center;
+        margin-top: 2em;
+}
     
 }
