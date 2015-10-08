@@ -107,15 +107,15 @@ body {
     transform: translateY(-50%);
 }
 
-.treedrawing { 
-    width: 180px;
+.treedrawing img { 
+    width: 70%;
     padding-right: 45px;
     padding-left: 45px; 
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.name {
+h1 {
     font-family: 'Lobster Two', cursive;
     font-size: 3rem;
 }
