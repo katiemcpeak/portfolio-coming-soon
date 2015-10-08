@@ -98,10 +98,13 @@ body {
 
 .logo {
     width: 15%;
-    position: absolute;
-    text-align: center;
-    margin-top: 20em;
-    margin-left: 30em;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform:translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .treedrawing { 
@@ -174,7 +177,7 @@ figure {
 
 footer {
     text-align: center;
-    margin: auto 0;
+    margin: auto 0;   
 }
 
 .socialmedialogo { 
