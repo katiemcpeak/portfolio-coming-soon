@@ -184,9 +184,10 @@ footer {
 }
 
 .socialmedialogo { 
-    width: 40%;
+    width: 10%;
     text-align: center;
     margin-top: 2em;
+    margin: 2em;
 }
 
 .form {
@@ -300,9 +301,10 @@ input[type="email"]:focus {
     }
     
     .socialmedialogo { 
-        width: 30%;
+        width: 5%;
         text-align: center;
         margin-top: 2em;
+        margin: 2em;
 }
     
 }
