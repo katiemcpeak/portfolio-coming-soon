@@ -177,7 +177,8 @@ figure {
 
 footer {
     text-align: center;
-    margin: auto 0;   
+    margin: auto 0; 
+    background-color: #c8c8c8;
 }
 
 .socialmedialogo { 
@@ -187,7 +188,7 @@ footer {
 }
 
 .form {
-    padding-bottom: 40px;
+    padding-bottom: 3em;
 }
 
 button {
