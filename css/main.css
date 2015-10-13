@@ -179,7 +179,7 @@ figure {
 footer {
     text-align: center;
     margin: auto 0; 
-    background-color: #c8c8c8;
+    background-color: rgba(120, 115, 154, 0.6);
 }
 
 .socialmedialogo { 
@@ -195,7 +195,7 @@ footer {
 
 button {
     font-size: 1em;
-    border: 3px solid grey;
+    border: 3px solid rgba(120, 115, 154, 0.9);
     background-color: white;
     font-family: 'Lobster Two', cursive;
     color: grey;
@@ -206,7 +206,7 @@ button {
 }
 
 button:hover {
-    background-color: grey;
+    background-color: rgba(120, 115, 154, 0.9);
     cursor: pointer;
     color: #fff;
 }
@@ -256,6 +256,7 @@ input[type="email"]:focus {
 
 .send {
     text-decoration: none;
+    color: rgba(120, 115, 154, 0.9);
 }
 
 @media only screen and (min-width: 24em) /* MOBILE */ {
