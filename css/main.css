@@ -191,6 +191,10 @@ footer {
     margin: 2em;
 }
 
+a {
+    text-decoration: none; 
+}
+
 .form {
     padding-bottom: 2em;
 }
