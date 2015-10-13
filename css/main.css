@@ -89,7 +89,8 @@ body {
 }
 
 .layer-billboard {
-    background-color: rgba(144, 144, 144, 0.4);
+    /*background-color: rgba(144, 144, 144, 0.4);*/
+    background-color: rgba(120, 115, 154, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -111,6 +112,7 @@ body {
 .treedrawing img { 
     width: 50%;
     position: relative;
+    padding-top: 5em; 
     display: block;
     margin: auto;
     -webkit-transform: translateY(-5%);
