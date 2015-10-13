@@ -89,6 +89,7 @@ body {
 }
 
 .layer-billboard {
+    background-color: rgba(144, 144, 144, 0.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -129,10 +130,6 @@ h1 {
     padding-bottom: 25px;
     padding-right: 25px;
     padding-top: 25px;
-}
-
-.portfolio {
-    margin: none;
 }
 
 .piece {
