@@ -109,11 +109,13 @@ body {
 }
 
 .treedrawing img { 
-    width: 70%;
-    padding-right: 45px;
-    padding-left: 45px; 
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 50%;
+    position: relative;
+    display: block;
+    margin: auto;
+    -webkit-transform: translateY(-5%);
+    -moz-transform:translateY(-5%);
+    transform: translateY(-5%);
 }
 
 h1 {
@@ -255,11 +257,17 @@ input[type="email"]:focus {
 .send {
     text-decoration: none;
 }
+
+@media only screen and (min-width: 24em) /* MOBILE */ {
+    
+    .about {
+        text-align: center;
+    }
+    
+}
     
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
-   
-    
     
 }
 
