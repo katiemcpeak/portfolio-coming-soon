@@ -123,14 +123,13 @@ body {
 
 h1 {
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 2.2em;
     letter-spacing: .2em;
-    font-size: 3rem;
 }
 
 .about {
     font-family: 'Lato', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
 }
   
@@ -196,79 +195,13 @@ footer {
 
 a {
     text-decoration: none; 
-}
-
-.form {
-    padding-bottom: 2em;
-}
-
-button {
-    font-size: 1em;
-    border: 3px solid rgba(120, 115, 154, 0.9);
-    background-color: white;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    color: grey;
-    font-weight: bold;
-    border-radius: 16px;
-    padding: 0.5em 0.75em;
-    align-content: center;
-}
-
-button:hover {
-    background-color: rgba(120, 115, 154, 0.9);
-    cursor: pointer;
-    color: #fff;
-}
-
-.pricingicons {
-    padding-top: 2rem;
-    width: 30%;
-    margin: 0 auto;
-}
+}  
 
 .contacttitle {
-    font-family: 'Lobster Two', cursive;
-    font-size: 3rem;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    letter-spacing: .2em;
 }
-
-input[type="email"] {
-    border: 1px solid #000;
-    border-radius: 3px;
-    font-size: 1.125em;
-    font-family: serif;
-    padding: 0.5em;
-    max-width: 15rem;
-}
-
-input[type="name"] {
-    border: 1px solid #000;
-    border-radius: 3px;
-    font-size: 1.125em;
-    font-family: serif;
-    padding: 0.5em;
-    max-width: 15rem;
-}
-
-input[type="tel"] {
-    border: 1px solid #000;
-    border-radius: 3px;
-    font-size: 1.125em;
-    font-family: serif;
-    padding: 0.5em;
-    max-width: 15rem;
-}
-
-input[type="email"]:focus {
-   outline: 3px solid brown;
-    background-color: #fff;
-}
-
-.send {
-    text-decoration: none;
-    color: rgba(120, 115, 154, 0.9);
-}
-    
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
     
