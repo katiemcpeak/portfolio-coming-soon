@@ -141,6 +141,8 @@ h1 {
 
 .piece {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .item {
@@ -194,7 +196,10 @@ footer {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
+    padding-bottom: 0;
+    margin: 0;
+    padding: 0;
 }  
 
 .contacttitle {
@@ -217,7 +222,8 @@ a {
         width: 50%;
     }
     
-    .piece {
+    .piece,
+    .blackbox {
         width: 50.0000%;
         display: inline-block;
         float: left;
@@ -235,11 +241,13 @@ a {
         width: 50%;
     }
     
-    .piece {
+    .piece,
+    .blackbox {
         width: 33.3333%;
         display: inline-block;
         float: left;
     }
+    
     
     .socialmedialogo { 
         width: 5%;
