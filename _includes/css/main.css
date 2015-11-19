@@ -168,10 +168,11 @@ h2 {
 
 .purplebox {
         background-color: rgba(120, 115, 154, 0.7);
-        height: 5em;
+        height: 10em;
         width: 100%;
         display: inline-block;
         float: left;
+        position: static;
     }
 
 .item {
@@ -248,7 +249,6 @@ a {
 }
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
-
 
 }
 
