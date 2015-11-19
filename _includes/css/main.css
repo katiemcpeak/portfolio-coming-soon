@@ -241,7 +241,7 @@ a {
     text-align: center;
     font-family: 'Lato', sans-serif;
     margin: 0;
-    padding: 2em;
+    padding: 3em;
     background-color: rgba(120, 115, 154, 0.7);
     color: white;
     clear: both;
@@ -272,6 +272,11 @@ a {
         width: 33.3333%;
         display: inline-block;
         float: left;
+    }
+
+    .description {
+        padding-right: 10em;
+        padding-left: 10em;
     }
 
 }
@@ -305,6 +310,11 @@ a {
         text-align: center;
         margin-top: 2em;
         margin: 2em;
+    }
+
+    .description {
+        padding-right: 20em;
+        padding-left: 20em;
     }
     
 }
