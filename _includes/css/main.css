@@ -243,6 +243,7 @@ a {
     padding: 2em;
     background-color: rgba(120, 115, 154, 0.7);
     color: white;
+    clear: both;
 }
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
