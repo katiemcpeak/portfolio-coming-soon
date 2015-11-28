@@ -16,6 +16,14 @@ html {
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     display: block;
     margin: 0 auto;
