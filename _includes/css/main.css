@@ -257,6 +257,39 @@ a {
     clear: both;
 }
 
+.background404 {
+    padding-top: 11rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 30em;
+    text-align: center;
+    color: white;
+    opacity: .2;
+    background-color: rgba(120, 115, 154, 1);
+    min-height: 100vh;
+}
+
+.info {
+    padding: 5em;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    background-color: rgba(120, 115, 154, 0.7);
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    padding-top: 1.5em;
+    font-size: 6em;
+}
+
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
 
 }
@@ -268,6 +301,10 @@ a {
     }
     
     .about {
+        width: 50%;
+    }
+
+    .darnparagraph {
         width: 50%;
     }
     
@@ -298,6 +335,10 @@ a {
     }
     
     .about {
+        width: 50%;
+    }
+
+    .darnparagraph {
         width: 50%;
     }
     
