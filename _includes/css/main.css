@@ -51,29 +51,44 @@ body {
     top: 0;
 }
 
+.header-background {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 9em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.billboard {
+    height: 40em;
+}
+
 .nav {
     list-style-type: none;
     text-align: right;
     position: absolute;
     right: 0em;
+    top: 0em;
+    margin-top: 1.5em;
+    margin-right: 1.75em;
 }
 
 .nav li {
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    font-size: 1.2em;
     letter-spacing: .2em;
-    display: inline-block;
     text-decoration: none;
-    padding-top: 1.1em;
-    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-right: 2.5em;
     margin: 0 auto;
+    font-size: .6em;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited {
-  display: block;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -84,22 +99,25 @@ body {
 .nav .nav-current:link,
 .nav .nav-current:visited {
 
-  color: black;
+  color: white;
 } 
 
-.billboard {
-    position: relative;
-    background-image: url("../images/hawaiiscenery.jpg");
+
+.homepage-billboard {
+    position: absolute;
+    background-image: url("../images/ocean-photo-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size: cover;
+    height: 40em;
     width: 100%;
+    top: 0;
+    left: 0;
     overflow: hidden;
     z-index: -1;
 }
 
-.layer-billboard {
-    /*background-color: rgba(144, 144, 144, 0.4);*/
+/*.layer-billboard {
     background-color: rgba(120, 115, 154, 0.6);
     position: absolute;
     top: 0;
@@ -107,27 +125,17 @@ body {
     width: 100%;
     height: 100%;
 }
+*/
 
 .logo {
-    width: 20%;
+    width: 15%;
     position: relative;
     display: block;
     margin: auto;
-    top: 50%;
+    padding-top: 55em;
     -webkit-transform: translateY(-50%);
     -moz-transform:translateY(-50%);
     transform: translateY(-50%);
-}
-
-.treedrawing img { 
-    width: 50%;
-    position: relative;
-    padding-top: 5em; 
-    display: block;
-    margin: auto;
-    -webkit-transform: translateY(-5%);
-    -moz-transform:translateY(-5%);
-    transform: translateY(-5%);
 }
 
 h1 {
@@ -146,16 +154,24 @@ h2 {
     clear: both;
 }
 
-.about {
+.about-h2 {
+    color: #005a5a;
     font-family: 'Lato', sans-serif;
-    font-size: 1.2em;
+    font-size: 2.25em;
+    text-transform: uppercase;
     text-align: center;
 }
-  
-.about-section {
-    padding-bottom: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
+
+.about {
+    padding-top: 10em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-bottom: 5em;
+}
+
+.p {
+    text-align: center;
+    padding-bottom: 2em;
 }
 
 .piece {
@@ -176,13 +192,13 @@ h2 {
 }
 
 .purplebox {
-        background-color: rgba(120, 115, 154, 0.7);
+        background-color: #005a5a;
         height: 10em;
         width: 100%;
         display: inline-block;
         float: left;
         position: static;
-    }
+}
 
 .item {
     padding: 45px;
@@ -221,10 +237,14 @@ figure {
     position: relative;
 }
 
-footer {
+.footer-background {
     text-align: center;
-    margin: auto 0; 
-    background-color: rgba(120, 115, 154, 0.7);
+    background-color: #005a5a;
+    overflow: hidden;
+    clear: both;
+    left: 0;
+    width: 100%;
+    padding: 0;
 }
 
 .socialmedialogo { 
@@ -252,7 +272,7 @@ a {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 3em;
-    background-color: rgba(120, 115, 154, 0.7);
+    background-color: #005a5a;
     color: white;
     clear: both;
 }
@@ -264,7 +284,7 @@ a {
     text-align: center;
     color: white;
     opacity: .2;
-    background-color: rgba(120, 115, 154, 1);
+    background-color: #005a5a;
     min-height: 100vh;
 }
 
@@ -276,7 +296,7 @@ a {
     font-size: 1.2em;
     text-align: center;
     color: white;
-    background-color: rgba(120, 115, 154, 0.7);
+    background-color: #005a5a;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -296,12 +316,17 @@ a {
 
 @media only screen and (min-width: 48em) /* TABLET */ {
     
+    .homepage-billboard {
+        height: 45em;
+    }
+    
     .name {
         width: 50%;
     }
     
     .about {
-        width: 50%;
+        margin-left: 5em;
+        margin-right: 5em;
     }
     
     .piece {
@@ -326,12 +351,23 @@ a {
 
 @media only screen and (min-width: 72em) /* DESKTOP */ {
     
-    .name {
-        width: 50%;
+    .header-background {
+        max-height: 15em;
+    } 
+    
+    .homepage-billboard {
+        height: 100vh;
     }
     
-    .about {
-        width: 50%;
+    .nav {
+        display: flex;
+        padding-top: 1.75em;
+        text-align: center;
+    }
+    
+    .nav li {
+        font-size: .7em;
+        padding-left: 3em;
     }
     
     .piece {
@@ -344,6 +380,11 @@ a {
         width: 33.3333%;
         display: inline-block;
         float: left;
+    }
+    
+    .about {
+        margin-left: 20em;
+        margin-right: 20em;
     }
     
     
