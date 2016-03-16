@@ -170,6 +170,7 @@ h2 {
 }
 
 .p {
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     padding-bottom: 2em;
 }
@@ -191,7 +192,7 @@ h2 {
     padding: 0;
 }
 
-.purplebox {
+.greenbox {
         background-color: #005a5a;
         height: 10em;
         width: 100%;
@@ -262,7 +263,7 @@ a {
 }  
 
 .email {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
 }
 
