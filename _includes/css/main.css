@@ -308,7 +308,7 @@ a {
 }
 
 .video {
-    margin: none;
+    margin: 0;
     text-align: center;
     padding-bottom: 6em;
 }
