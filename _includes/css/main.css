@@ -182,10 +182,6 @@ h2 {
     opacity: 0.6;
 }
 
-.piece:hover {
-    opacity: 1;
-}
-
 .piecepages {
     width: 100%;
     margin: 0;
@@ -298,6 +294,17 @@ a {
 .title {
     padding-top: 1.5em;
     font-size: 6em;
+}
+
+.fade { 
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 0.5;
 }
 
 @media only screen and (min-width: 10em) /* LANDSCAPE - MOBILE */ {
