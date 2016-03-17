@@ -51,14 +51,14 @@ body {
     top: 0;
 }
 
-.header-background {
-    background-color: rgba(255, 255, 255, 0.7);
+/*.header-background {
+    background-color: rgba(255, 255, 255, 0.4);
     height: 9em;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-}
+}*/
 
 .billboard {
     height: 40em;
@@ -79,7 +79,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .2em;
     text-decoration: none;
-    padding-top: 1em;
+    padding-top: .5em;
     padding-right: 2.5em;
     margin: 0 auto;
     font-size: .6em;
@@ -88,7 +88,7 @@ body {
 .nav a,
 .nav a:link,
 .nav a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ body {
 .nav .nav-current:link,
 .nav .nav-current:visited {
 
-  color: white;
+  color: black;
 } 
 
 
@@ -132,7 +132,7 @@ body {
     position: relative;
     display: block;
     margin: auto;
-    padding-top: 55em;
+    padding-top: 50em;
     -webkit-transform: translateY(-50%);
     -moz-transform:translateY(-50%);
     transform: translateY(-50%);
@@ -193,12 +193,12 @@ h2 {
 }
 
 .greenbox {
-        background-color: #005a5a;
-        height: 10em;
-        width: 100%;
-        display: inline-block;
-        float: left;
-        position: static;
+    background-color: #005a5a;
+    height: 10em;
+    width: 100%;
+    display: inline-block;
+    float: left;
+    position: static;
 }
 
 .item {
