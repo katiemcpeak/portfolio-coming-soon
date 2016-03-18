@@ -52,8 +52,10 @@ body {
 }
 
 .logosmall {
+    width: 5%;
     text-decoration: none;
-    font-size: 2em;
+    margin-top: 1.5em;
+    margin-left: 1.75em;
     display: inline-block;
 }
 
