@@ -192,6 +192,7 @@ h2 {
     margin-left: 1.5em;
     margin-right: 1.5em;
     padding-bottom: 5em;
+    line-height: 1.5em;
 }
 
 .p {
@@ -348,22 +349,39 @@ a {
     }
     
     .about {
-    padding-top: 7em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    padding-bottom: 5em;
-    line-height: 1.5em;
+        padding-top: 7em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        padding-bottom: 5em;
+        line-height: 1.5em;
     }
     
     .logo {
-    width: 30%;
-    position: relative;
-    display: block;
-    margin: auto;
-    padding-top: 40em;
-    -webkit-transform: translateY(-50%);
-    -moz-transform:translateY(-50%);
-    transform: translateY(-50%);
+        width: 30%;
+        position: relative;
+        display: block;
+        margin: auto;
+        padding-top: 40em;
+        -webkit-transform: translateY(-50%);
+        -moz-transform:translateY(-50%);
+        transform: translateY(-50%);
+    }
+        
+    .billboard-text {
+        font-size: 2.70em;
+        padding-top: 5em;
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+    }
+
+    .billboard-subtext {
+        font-size: .75em;
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .2em;
     }
 
 }
@@ -401,14 +419,14 @@ a {
     }
     
     .logo {
-    width: 17%;
-    position: relative;
-    display: block;
-    margin: auto;
-    padding-top: 45em;
-    -webkit-transform: translateY(-50%);
-    -moz-transform:translateY(-50%);
-    transform: translateY(-50%);
+        width: 17%;
+        position: relative;
+        display: block;
+        margin: auto;
+        padding-top: 45em;
+        -webkit-transform: translateY(-50%);
+        -moz-transform:translateY(-50%);
+        transform: translateY(-50%);
     }
 }
 
