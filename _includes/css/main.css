@@ -125,7 +125,7 @@ body {
 
 .billboard-text {
     font-size: 4em;
-    padding-top: 5em;
+    padding-top: 4em;
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -192,6 +192,11 @@ h2 {
     background-color: white;
     text-align: center;
     line-height: 1.5em;
+}
+
+.whitebackground {
+    background-color: white;
+    padding-bottom: 0.01em;
 }
 
 .p {
