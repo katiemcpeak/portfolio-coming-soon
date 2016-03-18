@@ -51,6 +51,12 @@ body {
     top: 0;
 }
 
+.logosmall {
+    text-decoration: none;
+    font-size: 2em;
+    display: inline-block;
+}
+
 /*.header-background {
     background-color: rgba(255, 255, 255, 0.4);
     height: 9em;
@@ -115,6 +121,25 @@ body {
     left: 0;
     overflow: hidden;
     z-index: -1;
+}
+
+.billboard-text {
+    font-size: 4em;
+    padding-top: 5em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.billboard-subtext {
+    font-size: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
 }
 
 /*.layer-billboard {
