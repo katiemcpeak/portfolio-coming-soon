@@ -350,6 +350,24 @@ a {
 
 @media only screen and (max-width: 72em) {
     
+    .nav {
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    right: 0em;
+    top: 0em;
+    margin-top: 1.5em;
+    margin-right: 0.5em;
+    }
+    
+    .logosmall {
+    width: 10%;
+    text-decoration: none;
+    margin-top: 1.5em;
+    margin-left: 1.75em;
+    display: inline-block;
+    }
+    
     .about-h2 {
         color: #00a998;
         font-family: 'Lato', sans-serif;
@@ -396,6 +414,14 @@ a {
 
 @media only screen and (min-width: 48em) /* TABLET */ {
     
+    
+    .logosmall {
+    width: 5%;
+    text-decoration: none;
+    margin-top: 1.5em;
+    margin-left: 1.75em;
+    display: inline-block;
+    }
     
     .homepage-billboard {
         height: 45em;
