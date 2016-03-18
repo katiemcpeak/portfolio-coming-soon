@@ -153,7 +153,7 @@ body {
 */
 
 .logo {
-    width: 15%;
+    width: 17%;
     position: relative;
     display: block;
     margin: auto;
@@ -341,7 +341,7 @@ a {
     padding-bottom: 6em;
 }
 
-@media only screen and (min-width: 10em) /* LANDSCAPE - MOBILE */ {
+@media only screen and (max-width: 72em) {
     
     .about-h2 {
         line-height: 2em;
@@ -352,6 +352,17 @@ a {
     margin-left: 1.5em;
     margin-right: 1.5em;
     padding-bottom: 5em;
+    }
+    
+    .logo {
+    width: 30%;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding-top: 40em;
+    -webkit-transform: translateY(-50%);
+    -moz-transform:translateY(-50%);
+    transform: translateY(-50%);
     }
 
 }
@@ -387,7 +398,17 @@ a {
         padding-right: 10em;
         padding-left: 10em;
     }
-
+    
+    .logo {
+    width: 20%;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding-top: 45em;
+    -webkit-transform: translateY(-50%);
+    -moz-transform:translateY(-50%);
+    transform: translateY(-50%);
+    }
 }
 
 
