@@ -347,15 +347,15 @@ a {
 	padding-bottom:56.25%;
 	padding-top:1px;
 	height:0;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .video iframe, .video object, .video embed {
 	position:absolute;
 	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+    left: 8em;
+	width: 75%;
+	height: 75%;
 }
 
 @media only screen and (max-width: 72em) {
@@ -419,6 +419,14 @@ a {
         text-transform: uppercase;
         letter-spacing: .2em;
     }
+    
+    .video iframe, .video object, .video embed {
+	position:absolute;
+	top:0;
+    left: 8em;
+	width: 75%;
+	height: 75%;
+}
 
 }
 
