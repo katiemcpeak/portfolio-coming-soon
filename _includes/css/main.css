@@ -370,6 +370,10 @@ a {
     margin-right: 0.5em;
     }
     
+    .nav li {
+    font-size: .7em;
+    }
+    
     .logosmall {
     width: 10%;
     text-decoration: none;
