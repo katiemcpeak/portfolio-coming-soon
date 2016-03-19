@@ -423,7 +423,7 @@ a {
     .video iframe, .video object, .video embed {
 	position:absolute;
 	top:0;
-    left: 8em;
+    left: 3em;
 	width: 75%;
 	height: 75%;
 }
@@ -480,6 +480,14 @@ a {
         -webkit-transform: translateY(-50%);
         -moz-transform:translateY(-50%);
         transform: translateY(-50%);
+    }
+    
+    .video iframe, .video object, .video embed {
+	position:absolute;
+	top:0;
+    left: 8em;
+	width: 75%;
+	height: 75%;
     }
 }
 
